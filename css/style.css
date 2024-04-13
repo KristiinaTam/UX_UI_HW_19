@@ -1,0 +1,355 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+        /* nav */
+
+nav {
+  height: 50px;
+  float: right;
+  color: #000000;
+  margin: 5px 0px;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+
+
+        /* hero */
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width:100%
+}
+
+/*#row {
+  /*background-color: #ffffff;
+  flex-direction: row;
+}*/
+
+      /* hero link */
+.resume {
+  margin: 0;
+  text-align: left;
+}
+
+    .left {
+      float: left;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+      width: 60%;
+      text-align: center;
+    }
+    .right {
+      float: left;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+    }
+    
+    
+    /* Typography CSS */
+
+    /*.inline-block2 {
+      align-self: auto;
+      padding: 15px;
+      display: inline-block;
+    }*/
+    
+h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 80px;
+      margin: 0px 0px 0px 40px;
+      color: #000000;
+      text-align: left;
+      text-decoration: none;
+    }
+    
+ h2 {
+      font-size: 30px;
+      margin: 0px 0px;
+      color: #000000;
+      font-weight: 300; 
+    }
+    
+ h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0px 0px;
+    }
+    
+       /*h4 {
+      color: white;
+      font-weight: 400;
+      font-size: 22px;
+    }*/
+    
+    p {
+      font-family: "roboto", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #000000;
+      text-align: left;
+        text-decoration: none;
+    }
+    
+ /* Gift Joy Case study */
+  
+  .GiftJoy-background-image {
+      margin-top:80px;
+      background-image: url(https://github.com/KristiinaTam/UX_UI_HW_18/blob/main/Images/confetti%20pic.jpg?raw=true);
+      opacity: 75%;
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+    }
+
+
+    table{
+
+      padding: 5px 10px;
+      position: relative;
+      bottom: 8px;
+      right: 16px;
+    }
+
+  
+    button {
+      padding: 2px 6px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    
+  button:hover {
+      background-color: #333;
+     
+    }
+  .left2
+  {
+    padding-left: 100px;
+    padding-top: 450px;
+    position: relative;
+    float: left;
+
+  }
+  .right2
+  {
+    padding-right: 50px;
+    padding-top: 450px;
+    margin: 20px;
+    float: right;
+   
+  
+   
+  }
+  h3-3 {
+    font-size: 25px;
+    margin: 0px 0px;
+    color: #fdfdfd;
+    font-weight: 300;
+    background-color: #333;
+  }
+  
+  p2 {
+   /* font-family: "roboto", sans-serif;*/
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #333;
+      
+  }
+  /* UMOCA Case Study*/
+
+  .UMOCA-background-image {
+    margin-top:80px;
+    background-image: url(https://github.com/KristiinaTam/UX_UI_HW_18/blob/main/Images/Animation.jpg?raw=true);
+    opacity: 75%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+
+  }
+
+  table{
+
+    padding: 5px 10px;
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+  }
+
+
+  button {
+    padding: 2px 6px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+   
+  }
+.left3
+{
+  padding-left: 100px;
+  padding-top: 450px;
+  position: relative;
+  float: left;
+
+}
+.right3
+{
+  padding-right: 50px;
+  padding-top: 450px;
+  margin: 20px;
+  float: right;
+ 
+
+ 
+}
+h3-3 {
+  font-size: 25px;
+  margin: 0px 0px;
+  color: #fdfdfd;
+  font-weight: 300;
+  background-color: #333;
+  font-style: bold;
+}
+
+p2 {
+ /* font-family: "roboto", sans-serif;*/
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #333;
+    
+}
+
+  /*.UMOCA
+
+
+    button {
+      padding: 2px 6px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #333;
+     
+    }
+  .left2
+  {
+    float: left;
+      margin: 20px;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }
+  .right2
+  {
+      margin: 20px;
+      float: right;
+      background-color: rgb(255, 255, 255);
+      height: 600px;
+      width: 40%;
+      text-align: center;
+  }*/
+  
+  .container {
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button2 {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button2:hover {
+      background-color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Footer*/
+
+    footer {
+
+      padding-top: 10%;
+      color: #000000;
+      text-align: center;
+      background-color:rgb(252, 253, 254);
+  
+    }
+    .inline-block2 {
+      padding:30px;
+      /*display: inline-flex;*/
+    }
+   
+    @media only screen and (max-width: 600px) {
+      /* Adjustments for smaller screens */
+      .flex {
+          flex-direction: column;
+      }
+  
+      .flex_item {
+          width: 100%;
+          margin: 10px;
+      }
+  
+      .left2, .right2, .left3, .right3 {
+          padding: 20px;
+          text-align: center;
+          float: none;
+          width: 100%;
+      }
