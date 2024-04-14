@@ -1,4 +1,42 @@
+/* hero*/ 
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width:100%
+}
 
+/*#row {
+  /*background-color: #ffffff;
+  flex-direction: row;
+}*/
+
+      /* hero link */
+      .resume {
+        margin: 0;
+        text-align: left;
+      }
+      
+          .left {
+            float: left;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            width: 60%;
+            text-align: center;
+          }
+          .right {
+            float: left;
+            background-color: rgb(255, 255, 255);
+            height: 600px;
+            width: 40%;
+            text-align: center;
+          }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -13,7 +51,7 @@ body {
         }
         .navigation {
           height: 70px;
-          background: #fefefe;
+          background: #ffffff;
           font-family: roboto, sans-serif;
           font-weight: 400;
           font-style: normal;
@@ -34,7 +72,7 @@ body {
           text-decoration: none;
         }*/
         
-    .nav-container {
+  .nav-container {
       max-width: 1000px;
       margin: 0 auto;
     }
@@ -157,12 +195,13 @@ body {
     border-radius: 1px;
     height: 5px;
     width: 35px;
-    background: #ba5757;
+    background: #040404;
     position: absolute;
     display: block;
     content: "";
     transition: all 300ms ease-in-out;
   }
+  
 
   #nav-toggle span:before {
     top: -10px;
@@ -188,11 +227,11 @@ body {
     transform: rotate(-45deg);
   }
         
-  article {
+  /*article {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
-  }
+  }*/
 
 
 /* old nav {
@@ -206,49 +245,6 @@ body {
   padding: 15px;
   display: inline-block;
 }*/
-
-
-
-
-        /* hero */
-.flex_item {
-  padding:10px;
-  margin: 10px;
-  background-color: rgb(255, 255, 255);
-  color: white;
-}
-.flex {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-  width:100%
-}
-
-/*#row {
-  /*background-color: #ffffff;
-  flex-direction: row;
-}*/
-
-      /* hero link */
-.resume {
-  margin: 0;
-  text-align: left;
-}
-
-    .left {
-      float: left;
-      height: 600px;
-      background-color: rgb(255, 255, 255);
-      width: 60%;
-      text-align: center;
-    }
-    .right {
-      float: left;
-      background-color: rgb(255, 255, 255);
-      height: 600px;
-      width: 40%;
-      text-align: center;
-    }
     
     
     /* Typography CSS */
@@ -528,6 +524,7 @@ p2 {
    
     @media only screen and (max-width: 600px) {
       /* Adjustments for smaller screens */
+
       .flex {
           flex-direction: column;
       }
@@ -543,7 +540,7 @@ p2 {
           float: none;
           width: 100%;
       }
-
+)
       /* media- java*/
  
 /*java script for hamburger*/
