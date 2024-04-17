@@ -18,25 +18,26 @@
 }*/
 
       /* hero link */
-      .resume {
-        margin: 0;
-        text-align: left;
-      }
+.resume {
+  margin: 0;
+  text-align: left;
+}
       
-          .left {
-            float: left;
-            height: 600px;
-            background-color: rgb(255, 255, 255);
-            width: 60%;
-            text-align: center;
-          }
-          .right {
-            float: left;
-            background-color: rgb(255, 255, 255);
-            height: 600px;
-            width: 40%;
-            text-align: center;
-          }
+.left {
+  float: left;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  text-align: center;
+}
+
+.right {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 40%;
+  text-align: center;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -44,9 +45,7 @@ body {
   margin: 0;
 }
   /* nav */
-
-
- /*@charset "UTF-8";*/
+/*@charset "UTF-8";*/
 
 .navigation {
   height: 70px;
@@ -56,7 +55,6 @@ body {
   font-style: normal;
   opacity: 0.88;
 }
-      
           
     nav {
       float: right;
@@ -124,7 +122,7 @@ body {
           
     @media only screen and (max-width: 798px) {
       .nav-mobile {
-      display: block;
+      display: block !important;
     }
           
     nav {
@@ -273,7 +271,8 @@ h1 {
   .GiftJoy-background-image {
       margin-top:80px;
       background-image: url(https://github.com/KristiinaTam/UX_UI_HW_18/blob/main/Images/confetti%20pic.jpg?raw=true);
-      opacity: 75%;
+      opacity: 60%;
+      width: 100%;
       height: 600px;
       background-position: center;
       background-repeat: no-repeat;
@@ -344,7 +343,8 @@ h1 {
   .UMOCA-background-image {
     margin-top:80px;
     background-image: url(https://github.com/KristiinaTam/UX_UI_HW_18/blob/main/Images/Animation.jpg?raw=true);
-    opacity: 75%;
+    opacity: 60%;
+    width: 100%;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -516,8 +516,4 @@ p2 {
           float: none;
           width: 100%;
       }
-
-      /* media- java*/
- 
-/*java script for hamburger*/
     }
