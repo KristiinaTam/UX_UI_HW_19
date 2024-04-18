@@ -1,26 +1,29 @@
-//(function($) { 
-//    $(function() { 
+
+(function($) { 
+    $(function() {
+   //   console.log("entered function") 
       // If a link has a dropdown, add sub menu toggle.
-//      $('nav ul li a:not(:only-child)').click(function(e) {
-//        $(this).siblings('.nav-dropdown').toggle();
+      $('nav ul li a:not(:only-child)').click(function(e) {
+        $(this).siblings('.nav-dropdown').toggle();
         // Close one dropdown when selecting another
-//        $('.nav-dropdown').not($(this).siblings()).hide();
-//        e.stopPropagation();
- //     });
+        $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+     });
       // Clicking away from dropdown will remove the dropdown class
-//      $('html').click(function() {
-//        $('.nav-dropdown').hide();
-//      });
+    $('html').click(function() {
+       $('.nav-dropdown').hide();
+      });
       // Toggle open and close nav styles on click
-//      $('#nav-toggle').click(function() {
-//        $('nav ul').slideToggle();
-//      });
+      $('#nav-toggle').click(function() {
+        $('nav ul').slideToggle();
+      });
       // Hamburger to X toggle
-//      $('#nav-toggle').on('click', function() {
-//        this.classList.toggle('active');
-//      });
-//    }); 
-//  })(jQuery); /
+      $('#nav-toggle').on('click', function() {
+        this.classList.toggle('active');
+ //       console.log("hamburger clicked")
+      });
+    }); 
+  })(jQuery); 
 function myFunction() {
   document.getElementById("demo").innerHTML = "Thank you for visiting my resume";
 }
